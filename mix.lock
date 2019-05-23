@@ -1,0 +1,4 @@
+%{
+  "statix": {:hex, :statix, "1.1.0", "af9a4586c5cd58f879e0595f06a4790878715de5b8f75f6346693aaa38da2424", [:mix], [], "hexpm"},
+  "vmstats": {:hex, :vmstats, "2.3.1", "fa719deb51c53672955cbf0e131cfe85be51732c700d2b58232157ac0478bf4a", [:rebar3], [], "hexpm"},
+}

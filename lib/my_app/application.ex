@@ -6,6 +6,7 @@ defmodule MyApp.Application do
   use Application
 
   def start(_type, _args) do
+    :ok = MyApp.Statix.connect()
     # List all child processes to be supervised
     children = [
       # Starts a worker by calling: MyApp.Worker.start_link(arg)
